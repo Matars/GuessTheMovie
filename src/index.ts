@@ -6,7 +6,7 @@ import type { FrameSignaturePacket } from './types'
 const app = new Hono()
 
 app.get('/', (c) => {
-  const frameImage = `https://placehold.co/1920x1005?text=Hello+World`
+  const frameImage = `https://play-lh.googleusercontent.com/CEuBzhjSrMdLryPZvX-qxNbtpbGiGbGZHMDY1YT6pXfPAsRRKphwW2v-6hZmSz8PIMg`
   const framePostUrl = c.req.url
 
   return c.html(html`

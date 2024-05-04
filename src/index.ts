@@ -6,7 +6,7 @@ import type { FrameSignaturePacket } from './types'
 const app = new Hono()
 
 app.get('/', (c) => {
-  const frameImage = `https://play-lh.googleusercontent.com/CEuBzhjSrMdLryPZvX-qxNbtpbGiGbGZHMDY1YT6pXfPAsRRKphwW2v-6hZmSz8PIMg`
+  const frameImage = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThce0ASD7AixM9W5Nv_H4MDCPGZzefXp4b9LcV2hAyHw&s`
   const framePostUrl = c.req.url
 
   return c.html(html`
